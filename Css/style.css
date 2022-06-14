@@ -1,0 +1,50 @@
+@font-face{
+    font-family: Norse Bold;
+    src: url(../Font/Norse-Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    overflow: hidden;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-image: url(../Image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 100vh;
+}
+.picture{
+    padding: 80px 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(32, 29, 29, 0.432);
+    width: 100%;
+}
+.logo img{
+    max-width: 90px;
+}
+.logo h1{
+    font-family: Norse Bold, 'Courier New', Courier, monospace;
+    font-size: 82px;
+    color: white;
+}
+.footer{
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+}
+.footer a{
+    color: white;
+}
