@@ -10,6 +10,7 @@
 }
 html,body{
     min-height: 100vh;
+    background-color: #f7f7d53d;
 }
 section{
     display: flex;
@@ -56,14 +57,14 @@ section{
 .sign-form-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 .header-container{
     background-color: rgba(226, 218, 218, 0.329);
     padding:60px 40px 40px 40px;
 }
 .header{
-    max-width: 650px;
+    max-width: 90%;
 }
 .header h2{
     font-weight: 500;
@@ -90,7 +91,7 @@ section{
     padding: 10px 0;
 }
 .input input{
-    width: 240px;
+    width: 220px;
     padding: 3px;
 }
 .buttns{
@@ -165,6 +166,9 @@ section{
     }
     .header-container{
         padding: 30px 20px 20px 20px;
+    }
+    .header{
+        max-width: max-content;
     }
 
 }
